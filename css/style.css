@@ -1,0 +1,78 @@
+
+body {
+    font-family: 'Montserrat' sans-serif;
+    overflow-x: hidden;
+
+}
+
+span img {
+    height: 80px;
+    width: 80px;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+.carousel-inner {
+    max-height: 39rem;
+}
+
+#bg-contacto {
+    position: relative;
+    top: -230px;
+    }
+
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 120px;
+    position: relative;
+    }
+
+#contenedor-formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 3px;
+    max-width: 400px;
+}
+#titulo-form{
+    color: #3f3f3f;
+}
+
+
+@media (max-width:768px) {
+    #intro,#equipo {
+        width: 90% !important;
+
+        #equipo p {
+            display: none;
+        }
+        .servicio-fila{
+            width: 100% !important;
+            text-align: center;
+        }
+        #bg-contacto {
+            top: -110px;
+        }
+    }
+}
+.container-fluid {
+    display: block;
+}
+@media(max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}

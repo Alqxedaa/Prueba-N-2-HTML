@@ -1,0 +1,13 @@
+label.error{
+    color: red;
+}
+input.error{
+    border: 1px solid darkred;
+}
+label.valid {
+    display: block;
+    color: green;
+    font-size: 20px;
+    margin-top: 5px;
+}
+

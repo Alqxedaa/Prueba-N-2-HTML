@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación del clima</title>
+    <link rel="stylesheet" href="css/api.css">
+</head>
+<body>
+    <a class="navbar-brand" href="index.html">
+        <img src="imagenes/Grupo Cero(1).png" id="logo" alt="" width="80" height="80" class="d-inline-block align-text-center">
+      </a>
+  <div id="weather-container">
+        <h2> El clima</h2>
+        <input type="text" id="city" placeholder="Ingresar ciudad">
+        
+        <button onclick="getWeather()">Buscar</button>
+        
+        <img id="weather-icon" alt="weather-icon">
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
